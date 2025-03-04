@@ -14,9 +14,8 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 from pyromod import listen
-
+import config
 import helpers.vid as helper
-from CrazyMind.CrazyConfig import *
 from helpers.button import keyboard
 from helpers.sudoers import *
 from helpers.text import *
