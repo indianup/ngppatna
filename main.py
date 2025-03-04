@@ -21,6 +21,12 @@ from helpers.sudoers import *
 from helpers.text import *
 
 from utils import get_datetime_str, create_html_file
+
+
+api_id = "21705536"
+api_hash = "c5bb241f6e3ecf33fe68a444e288de2d"
+bot_token = "7979826252:AAFihIFHcUhlpN5b3RBgpCGm-iqSKdTsndI"
+
 # ==========Logging==========#
 logging.basicConfig(
     level=logging.DEBUG,
